@@ -1,11 +1,15 @@
 package dsalgostepdefinitions;
 
+import dsalgodrivers.DriverFactory;
+import dsalgopages.Datastructurepage_Pf;
+import dsalgopages.Loginpages_Pf;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class Datastructure_sd {
-
+	
+	Datastructurepage_Pf login = new Datastructurepage_Pf(DriverFactory.getDriver());
 	@Given(": The user is on DS Algo Homepage")
 	public void the_user_is_on_ds_algo_homepage() {
 	    
