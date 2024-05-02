@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-02T12:41:31 EDT" name="Default suite" finished-at="2024-05-02T12:41:56 EDT" duration-ms="24612">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgotestrunner.TestRunner@1bd39d3c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-05-02T12:41:31 EDT" name="Default test" finished-at="2024-05-02T12:41:56 EDT" duration-ms="24612">
+      <class name="dsalgotestrunner.TestRunner">
+        <test-method is-config="true" signature="defineBrowser(java.lang.String)[pri:0, instance:dsalgotestrunner.TestRunner@1bd39d3c]" started-at="2024-05-02T12:41:31 EDT" name="defineBrowser" finished-at="2024-05-02T12:41:31 EDT" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineBrowser -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:dsalgotestrunner.TestRunner@1bd39d3c]" started-at="2024-05-02T12:41:31 EDT" name="setUpClass" finished-at="2024-05-02T12:41:32 EDT" duration-ms="753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a5b8489]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgotestrunner.TestRunner@1bd39d3c]" started-at="2024-05-02T12:41:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T12:41:56 EDT" duration-ms="23704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive Scenario testing with valid inputs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgotestrunner.TestRunner@1bd39d3c]" started-at="2024-05-02T12:41:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T12:41:55 EDT" duration-ms="23563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Negative Scenario testing with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgotestrunner.TestRunner@1bd39d3c]" started-at="2024-05-02T12:41:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T12:41:55 EDT" duration-ms="23577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User clicks Register button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GetStartedPage testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgotestrunner.TestRunner@1bd39d3c]" started-at="2024-05-02T12:41:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T12:41:55 EDT" duration-ms="23642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Negative Scenario testing with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgotestrunner.TestRunner@1bd39d3c]" started-at="2024-05-02T12:41:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T12:41:55 EDT" duration-ms="23518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Negative Scenario testing with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgotestrunner.TestRunner@1bd39d3c]" started-at="2024-05-02T12:41:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T12:41:56 EDT" duration-ms="23699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Negative Scenario testing with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgotestrunner.TestRunner@1bd39d3c]" started-at="2024-05-02T12:41:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T12:41:55 EDT" duration-ms="23529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User enters DS Algo Portal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["GetStartedPage testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:dsalgotestrunner.TestRunner@1bd39d3c]" started-at="2024-05-02T12:41:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-02T12:41:56 EDT" duration-ms="23691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Negative Scenario testing with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality Testing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:dsalgotestrunner.TestRunner@1bd39d3c]" started-at="2024-05-02T12:41:56 EDT" name="tearDownClass" finished-at="2024-05-02T12:41:56 EDT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- dsalgotestrunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
