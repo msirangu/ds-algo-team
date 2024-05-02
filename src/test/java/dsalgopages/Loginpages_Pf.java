@@ -2,7 +2,7 @@ package dsalgopages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-public class Loginpages_sd 
+public class Loginpages_Pf 
 {
 	WebDriver driver;
 	By username =By.xpath("//input[@name='username']");
@@ -11,7 +11,7 @@ public class Loginpages_sd
 	By invalidmessage = By.xpath("//div[@role='alert']");
 	By successmessage = By.xpath("//div[@role='alert']");
 	
-	public Loginpages_sd(WebDriver driver) {
+	public Loginpages_Pf(WebDriver driver) {
 		
 		this.driver = driver;
 	}

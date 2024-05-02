@@ -6,7 +6,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
- public class HomePages_sd 
+ public class HomePages_Pf 
  {
 	 private WebDriver driver;
 	    By message= By.xpath("//p[contains(text(),'You are at the right place')]");
@@ -19,7 +19,7 @@ import org.openqa.selenium.WebElement;
 		By getStarted = By.xpath("//a[@href='data-structures-introduction']");
 		By register = By.linkText("Register");
 		By login =By.linkText("Login");
-	public HomePages_sd(WebDriver driver)
+	public HomePages_Pf(WebDriver driver)
 	{
 		this.driver = driver;
 	}
