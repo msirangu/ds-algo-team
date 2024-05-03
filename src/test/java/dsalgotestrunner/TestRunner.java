@@ -9,7 +9,7 @@ import dsalgoutilities.configreader;
 @CucumberOptions(
       features = {"C:\\Users\\rajes\\eclipse-workspace\\DAlgorithm-Automation\\src\\test\\resources\\dsalgofeatures"},
       glue= {"dsalgostepdefinitions","dsalgohooks"},
-      
+     // tags= "@Datastructurepage" ,
       plugin={"pretty",
     		  "html:target/report.html",
 //    		  "json:target/report.json",

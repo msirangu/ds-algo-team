@@ -1,3 +1,4 @@
+@Datastructurepage
 Feature: Data Structures functionality page
 
   Background: 
