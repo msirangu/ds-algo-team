@@ -5,13 +5,13 @@ import java.util.List;
 import org.junit.Assert;
 
 import dsalgodrivers.DriverFactory;
-import dsalgopages.HomePages_Pf;
+import dsalgopages.Homepage_pf;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
 
-public class HomePageSteps 
+public class Homepage_sd 
 {
-	HomePages_Pf homePage = new HomePages_Pf(DriverFactory.getDriver());
+	Homepage_pf homePage = new Homepage_pf(DriverFactory.getDriver());
 	@Given(": The user should be able to open the browser")
 	public void the_user_should_be_able_to_open_the_browser() {
 		System.out.println("Browser is opened");

@@ -6,10 +6,10 @@ import dsalgodrivers.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import dsalgopages.Loginpages_Pf;
-public class Loginsteps {
+import dsalgopages.Loginpage_pf;
+public class Login_sd {
 	
-	Loginpages_Pf login = new Loginpages_Pf(DriverFactory.getDriver());
+	Loginpage_pf login = new Loginpage_pf(DriverFactory.getDriver());
 
 	@Given(": User must be in the Loginpage")
 	public void user_must_be_in_the_loginpage() {

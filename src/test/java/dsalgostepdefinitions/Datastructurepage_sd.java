@@ -5,14 +5,14 @@ import java.io.IOException;
 import org.junit.Assert;
 
 import dsalgodrivers.DriverFactory;
-import dsalgopages.Datastructurepage_Pf;
+import dsalgopages.Datastructurepage_pf;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class Datastructure_sd {
+public class Datastructurepage_sd {
 	
-	Datastructurepage_Pf datastructure = new Datastructurepage_Pf(DriverFactory.getDriver());
+	Datastructurepage_pf datastructure = new Datastructurepage_pf(DriverFactory.getDriver());
 	@Given(": The user is on DS Algo Homepage")
 	public void the_user_is_on_ds_algo_homepage() {
 	    datastructure.Homepage();

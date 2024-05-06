@@ -13,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import dsalgoutilities.PythonExcelReader;
 
-public class Datastructurepage_Pf {
+public class Datastructurepage_pf {
    WebDriver driver;
    
    @FindBy (linkText = "Sign in") WebElement signin;
@@ -29,7 +29,7 @@ public class Datastructurepage_Pf {
    @FindBy (xpath = "//pre[@id='output']")WebElement output;
 	PythonExcelReader excel = new PythonExcelReader();
    
-public Datastructurepage_Pf(WebDriver driver)
+public Datastructurepage_pf(WebDriver driver)
 { 
 	PageFactory.initElements(driver, this);
 	this.driver = driver; 
