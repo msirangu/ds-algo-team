@@ -1,7 +1,7 @@
 Feature: Tree in Homepage
 
   Background: 
-     Given : The user is on DS Algo Homepage
+    Given : The user is on DS Algo Homepage
     When : The user clicks on Signin button
     And : The user enters "manasa" as username and "Sahasra@123" as password and clicks on login button
     Then :The user should get message as "You are logged in" in homepage

@@ -13,11 +13,11 @@ import org.openqa.selenium.support.PageFactory;
 import dsalgoutilities.PythonExcelReader;
 
 public class Treepage_pf {
-  
-	   @FindBy (linkText = "Sign in") WebElement signin;
-	   @FindBy (xpath = "//input[@name='username']") WebElement username;
-	  @FindBy (xpath = "//input[@name='password']") WebElement password;
-	   @FindBy (xpath = "//input[@value='Login']") WebElement login;
+//  
+//	   @FindBy (linkText = "Sign in") WebElement signin;
+//	   @FindBy (xpath = "//input[@name='username']") WebElement username;
+//	  @FindBy (xpath = "//input[@name='password']") WebElement password;
+//	   @FindBy (xpath = "//input[@value='Login']") WebElement login;
 	 @FindBy (xpath = "//div[@role='alert']")WebElement message;
 	   @FindBy (xpath = "//a[@href='tree']")WebElement getStarted ;
 	   @FindBy (xpath = "//a[@href='overview-of-trees']")WebElement overview ;
@@ -40,7 +40,7 @@ public class Treepage_pf {
 	   PythonExcelReader excel = new PythonExcelReader();
 					
 	 WebDriver driver;
-	 Loginpage_pf loginpage=new Loginpage_pf(driver);
+	 
 	public Treepage_pf(WebDriver driver)
 	{ 
 		PageFactory.initElements(driver, this);
