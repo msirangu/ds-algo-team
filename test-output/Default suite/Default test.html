@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>25/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue May 07 22:16:45 EDT 2024</td>
+<td>Started on:</td><td>Wed May 08 16:42:05 EDT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>135 seconds (135724 ms)</td>
+<tr><td>Total time:</td><td>116 seconds (116615 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,67 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Negative Scenario testing with invalid data", "Login Functionality Testing"</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: no such execution context
-  (Session info: chrome=124.0.6367.119)
-Build info: version: &apos;4.18.0&apos;, revision: &apos;b6bf9de7cc*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a5d652dd6bda95f61d5126ad3c6a4c48, deleteAllCookies {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\rajes\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49451}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49451/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a5d652dd6bda95f61d5126ad3c6a4c48
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:856)
-	at dsalgodrivers.DriverFactory.init_driver(DriverFactory.java:48)
-	at dsalgohooks.HooksApplication.launchBrowser(HooksApplication.java:29)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1819822533", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1819822533'><pre>org.openqa.selenium.WebDriverException: no such execution context
-  (Session info: chrome=124.0.6367.119)
-Build info: version: &apos;4.18.0&apos;, revision: &apos;b6bf9de7cc*&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a5d652dd6bda95f61d5126ad3c6a4c48, deleteAllCookies {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\rajes\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49451}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49451/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a5d652dd6bda95f61d5126ad3c6a4c48
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:856)
-	at dsalgodrivers.DriverFactory.init_driver(DriverFactory.java:48)
-	at dsalgohooks.HooksApplication.launchBrowser(HooksApplication.java:29)
-</pre></div></td>
-<td>3</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -139,57 +78,107 @@ Session ID: a5d652dd6bda95f61d5126ad3c6a4c48
 <tr>
 <td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Binary Tree traversals", "Tree in Homepage"</td>
 <td></td>
-<td>32</td>
+<td>14</td>
 <td>dsalgotestrunner.TestRunner@1800a575</td></tr>
 <tr>
 <td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Get started", "Tree in Homepage"</td>
 <td></td>
-<td>51</td>
+<td>26</td>
 <td>dsalgotestrunner.TestRunner@1800a575</td></tr>
 <tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enters DS Algo Portal", "GetStartedPage testing"</td>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Positive Scenario testing with valid inputs", "Login Functionality Testing"</td>
 <td></td>
-<td>48</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-<tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Implementation in Python", "Tree in Homepage"</td>
-<td></td>
-<td>32</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-<tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "click on Get Started", "Graph in Homepage"</td>
-<td></td>
-<td>58</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-<tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Types of Trees", "Tree in Homepage"</td>
-<td></td>
-<td>43</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-<tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "CLick on Graph", "Graph in Homepage"</td>
-<td></td>
-<td>73</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-<tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Binary Trees", "Tree in Homepage"</td>
-<td></td>
-<td>42</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-<tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Negative Scenario testing with invalid data", "Login Functionality Testing"</td>
-<td></td>
-<td>70</td>
+<td>37</td>
 <td>dsalgotestrunner.TestRunner@1800a575</td></tr>
 <tr>
 <td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Binary Search Trees", "Tree in Homepage"</td>
 <td></td>
-<td>32</td>
+<td>10</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Implementation in Python", "Tree in Homepage"</td>
+<td></td>
+<td>17</td>
 <td>dsalgotestrunner.TestRunner@1800a575</td></tr>
 <tr>
 <td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Types of Binary Trees", "Tree in Homepage"</td>
 <td></td>
-<td>28</td>
+<td>21</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Implementation of Binary Trees", "Tree in Homepage"</td>
+<td></td>
+<td>13</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Negative Scenario testing with invalid data", "Login Functionality Testing"</td>
+<td></td>
+<td>34</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Negative Scenario testing with invalid data", "Login Functionality Testing"</td>
+<td></td>
+<td>39</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Time complexity", "Data Structures functionality page"</td>
+<td></td>
+<td>91</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Tree Traversals", "Tree in Homepage"</td>
+<td></td>
+<td>37</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "click on Get Started", "Graph in Homepage"</td>
+<td></td>
+<td>60</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Binary Trees", "Tree in Homepage"</td>
+<td></td>
+<td>21</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "click on Graph Representations", "Graph in Homepage"</td>
+<td></td>
+<td>62</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Overview of Trees", "Tree in Homepage"</td>
+<td></td>
+<td>38</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Implementation of BST", "Tree in Homepage"</td>
+<td></td>
+<td>6</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Data Structures", "Data Structures functionality page"</td>
+<td></td>
+<td>74</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "CLick on Graph", "Graph in Homepage"</td>
+<td></td>
+<td>75</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Negative Scenario testing with invalid data", "Login Functionality Testing"</td>
+<td></td>
+<td>66</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Traversal Illustration", "Tree in Homepage"</td>
+<td></td>
+<td>19</td>
+<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
+<tr>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Types of Trees", "Tree in Homepage"</td>
+<td></td>
+<td>33</td>
 <td>dsalgotestrunner.TestRunner@1800a575</td></tr>
 <tr>
 <td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Negative Scenario testing with invalid data", "Login Functionality Testing"</td>
@@ -197,69 +186,24 @@ Session ID: a5d652dd6bda95f61d5126ad3c6a4c48
 <td>63</td>
 <td>dsalgotestrunner.TestRunner@1800a575</td></tr>
 <tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Tree Traversals", "Tree in Homepage"</td>
-<td></td>
-<td>73</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-<tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Implementation of Binary Trees", "Tree in Homepage"</td>
-<td></td>
-<td>32</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-<tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Negative Scenario testing with invalid data", "Login Functionality Testing"</td>
-<td></td>
-<td>48</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-<tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Implementation of BST", "Tree in Homepage"</td>
-<td></td>
-<td>27</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-<tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Time complexity", "Data Structures functionality page"</td>
-<td></td>
-<td>58</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-<tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "click on Graph Representations", "Graph in Homepage"</td>
-<td></td>
-<td>48</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-<tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Overview of Trees", "Tree in Homepage"</td>
-<td></td>
-<td>54</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-<tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Data Structures", "Data Structures functionality page"</td>
-<td></td>
-<td>49</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-<tr>
 <td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Terminologies", "Tree in Homepage"</td>
 <td></td>
-<td>49</td>
+<td>34</td>
 <td>dsalgotestrunner.TestRunner@1800a575</td></tr>
 <tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Positive Scenario testing with valid inputs", "Login Functionality Testing"</td>
+<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enters DS Algo Portal", "GetStartedPage testing"</td>
 <td></td>
-<td>53</td>
+<td>84</td>
 <td>dsalgotestrunner.TestRunner@1800a575</td></tr>
 <tr>
 <td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Negative Scenario testing with invalid data", "Login Functionality Testing"</td>
 <td></td>
-<td>59</td>
-<td>dsalgotestrunner.TestRunner@1800a575</td></tr>
-<tr>
-<td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click on Traversal Illustration", "Tree in Homepage"</td>
-<td></td>
-<td>61</td>
+<td>74</td>
 <td>dsalgotestrunner.TestRunner@1800a575</td></tr>
 <tr>
 <td title='dsalgotestrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: dsalgotestrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User clicks Register button", "GetStartedPage testing"</td>
 <td></td>
-<td>58</td>
+<td>75</td>
 <td>dsalgotestrunner.TestRunner@1800a575</td></tr>
 </table><p>
 </body>
