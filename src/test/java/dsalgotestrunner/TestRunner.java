@@ -12,11 +12,11 @@ import dsalgoutilities.configreader;
      // tags= "@Datastructurepage" ,
       plugin={"pretty",
     		  "html:target/report.html",
-//    		  "json:target/report.json",
-//    		  "junit:target/report.xml",
-//    		  "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
-//    		  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-//    		  "timeline:test-output-thread/"
+   		  "json:target/report.json",
+   		  "junit:target/report.xml",
+   		  "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+    		  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+    		  "timeline:test-output-thread/"
     		 }
 )
 public class TestRunner extends AbstractTestNGCucumberTests
