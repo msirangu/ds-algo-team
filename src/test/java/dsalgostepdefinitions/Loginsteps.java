@@ -6,10 +6,10 @@ import dsalgodrivers.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import dsalgopages.Loginpages_sd;
+import dsalgopages.Loginpages_pf;
 public class Loginsteps {
 	
-	Loginpages_sd login = new Loginpages_sd(DriverFactory.getDriver());
+	Loginpages_pf login = new Loginpages_pf(DriverFactory.getDriver());
 
 	@Given(": User must be in the Loginpage")
 	public void user_must_be_in_the_loginpage() throws InterruptedException {
