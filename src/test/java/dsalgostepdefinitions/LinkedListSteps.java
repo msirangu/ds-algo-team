@@ -6,11 +6,11 @@ import dsalgodrivers.DriverFactory;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import dsalgopages.LinkedListPages;
-import dsalgopages.Loginpages_sd;
+import dsalgopages.LinkedListPages_pf;
+import dsalgopages.Loginpages_pf;
 public class LinkedListSteps {
 	
-	LinkedListPages linkedlist = new LinkedListPages(DriverFactory.getDriver());
+	LinkedListPages_pf linkedlist = new LinkedListPages_pf(DriverFactory.getDriver());
 //	DataStructuresPages data = new DataStructuresPages(DriverFactory.getDriver());
 //	Arraypages array = new Arraypages(DriverFactory.getDriver());
 	
@@ -28,7 +28,7 @@ public class LinkedListSteps {
 
 	}
 
-	Loginpages_sd LL = new Loginpages_sd(DriverFactory.getDriver());
+	Loginpages_pf LL = new Loginpages_pf(DriverFactory.getDriver());
 
 	@Given(": User must be in the Loginpage for linkedlist")
 	public void user_must_be_in_the_loginpage_for_linkedlist() throws InterruptedException {
