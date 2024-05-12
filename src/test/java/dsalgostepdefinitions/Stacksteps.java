@@ -5,14 +5,14 @@ import org.junit.Assert;
 
 import dsalgodrivers.DriverFactory;
 import io.cucumber.java.en.*;
-import dsalgopages.Loginpages_sd;
+import dsalgopages.Loginpages_pf;
 //import dsalgopages.Arraypages;
-import dsalgopages.StackPages;
+import dsalgopages.StackPages_pf;
 
 
 public class Stacksteps {
-	StackPages sp = new StackPages(DriverFactory.getDriver());
-	Loginpages_sd st = new Loginpages_sd(DriverFactory.getDriver());
+	StackPages_pf sp = new StackPages_pf(DriverFactory.getDriver());
+	Loginpages_pf st = new Loginpages_pf(DriverFactory.getDriver());
 	
 	@Given(": User must be in the Loginpage for stack")
 	public void user_must_be_in_the_loginpage_for_stack() throws InterruptedException {
@@ -46,7 +46,7 @@ public class Stacksteps {
 	   
 	}
 
-	StackPages stack = new StackPages(DriverFactory.getDriver());
+	StackPages_pf stack = new StackPages_pf(DriverFactory.getDriver());
 	//Arraypages array = new Arraypages(DriverFactory.getDriver());
 
 	@Then(": The user should be navigated to  the Stack page")
